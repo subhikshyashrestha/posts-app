@@ -19,4 +19,4 @@ The app focuses on clean code structure, proper data fetching, handling loading/
 ## How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/USERNAME/posts-app.git
+   git clone https://github.com/subhikshyashrestha/posts-app.git
