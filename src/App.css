@@ -1,0 +1,103 @@
+/* General body styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Container for content */
+.container {
+  max-width: 1600px;
+  width:95%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #1a1a1a;
+}
+
+/* Search input */
+.search-input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Posts grid */
+.posts {
+  display: grid;
+  gap: 16px;
+}
+
+/* Individual post card */
+.post-card {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.post-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.post-card h3 {
+  margin-bottom: 10px;
+  color: #007bff;
+  font-size: 18px;
+}
+
+.post-card p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Load More button */
+.load-more {
+  margin: 25px auto;
+  display: block;
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.load-more:hover {
+  background-color: #0056b3;
+}
+
+/* Loading & Error messages */
+.status {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.error {
+  color: #d9534f;
+}
